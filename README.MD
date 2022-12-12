@@ -9,3 +9,6 @@ LRU
 手写限流算法
 Reactor
 Redis MySQL 一致性知识
+Spring IoC 容器与扩展点
+异步与多线程
+Dubbo核心 - SPI 机制详解
