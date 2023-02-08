@@ -57,7 +57,7 @@ public class DuplicateTest {
      * @param sort
      * @return
      */
-    public static int[] initDate(int width, boolean sort) {
+    public static int[] initData(int width, boolean sort) {
         int[] arr = new int[width];
         for (int i = 0; i < width; i++) {
             arr[i] = RandomUtil.randomInt(width);
@@ -69,7 +69,7 @@ public class DuplicateTest {
     }
 
     public static void main(String[] args) {
-        shuffleDuplicate(initDate(1000, false));
-        orderedDuplicate(initDate(1000, true));
+        shuffleDuplicate(initData(1000, false));
+        orderedDuplicate(initData(1000, true));
     }
 }
