@@ -28,11 +28,11 @@ public class DuplicateTest {
      */
     public static void shuffleDuplicate(int[] array) {
         BitSet bitSet = new BitSet();
-        for (int j : array) {
-            if (bitSet.get(j)) {
-                System.out.printf("重复元素: %s\n", j);
+        for (int i : array) {
+            if (bitSet.get(i)) {
+                System.out.printf("重复元素: %s\n", i);
             } else {
-                bitSet.set(j, true);
+                bitSet.set(i, true);
             }
         }
     }
